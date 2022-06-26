@@ -1,0 +1,52 @@
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\UIL.exe
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\UIL.deps.json
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\UIL.runtimeconfig.json
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\UIL.dll
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\UIL.pdb
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.csproj.AssemblyReference.cache
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.csproj.GenerateResource.cache
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.AssemblyInfoInputs.cache
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.AssemblyInfo.cs
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.csproj.CoreCompileInputs.cache
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.dll
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\refint\UIL.dll
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.pdb
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.genruntimeconfig.cache
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\ref\UIL.dll
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\BEL.dll
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\BL.dll
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\DAL.dll
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\BEL.pdb
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\BL.pdb
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\DAL.pdb
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\TallerMecanico.FormVehiculos.resources
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.csproj.CopyComplete
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\Framework.dll
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\Framework.pdb
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\UIL.exe
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\UIL.deps.json
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\UIL.runtimeconfig.json
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\UIL.dll
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\UIL.pdb
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\BEL.dll
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\BL.dll
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\DAL.dll
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\Framework.dll
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\BEL.pdb
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\BL.pdb
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\Framework.pdb
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\bin\Debug\net6.0-windows\DAL.pdb
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.csproj.AssemblyReference.cache
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\TallerMecanico.FormVehiculos.resources
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.csproj.GenerateResource.cache
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.AssemblyInfoInputs.cache
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.AssemblyInfo.cs
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.csproj.CoreCompileInputs.cache
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.csproj.CopyComplete
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.dll
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\refint\UIL.dll
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.pdb
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\UIL.genruntimeconfig.cache
+C:\Users\SocialPath\Desktop\TallerMecanico\TallerMecanico\obj\Debug\net6.0-windows\ref\UIL.dll

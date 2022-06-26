@@ -1,0 +1,153 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "BEL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BEL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BEL.dll": {}
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BEL": "1.0.0",
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BEL/1.0.0": {
+      "type": "project",
+      "path": "../BEL/BEL.csproj",
+      "msbuildProject": "../BEL/BEL.csproj"
+    },
+    "BL/1.0.0": {
+      "type": "project",
+      "path": "../BL/BL.csproj",
+      "msbuildProject": "../BL/BL.csproj"
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
+    },
+    "Framework/1.0.0": {
+      "type": "project",
+      "path": "../Framework/Framework.csproj",
+      "msbuildProject": "../Framework/Framework.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "BEL >= 1.0.0",
+      "BL >= 1.0.0",
+      "Framework >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\SocialPath\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\TallerMecanico\\UIL.csproj",
+      "projectName": "UIL",
+      "projectPath": "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\TallerMecanico\\UIL.csproj",
+      "packagesPath": "C:\\Users\\SocialPath\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\TallerMecanico\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\SocialPath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\BEL\\BEL.csproj": {
+              "projectPath": "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\BEL\\BEL.csproj"
+            },
+            "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\BL\\BL.csproj"
+            },
+            "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\Framework\\Framework.csproj": {
+              "projectPath": "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\Framework\\Framework.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

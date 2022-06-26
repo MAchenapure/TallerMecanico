@@ -1,0 +1,12 @@
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\DAL\bin\Debug\net6.0\DAL.dll
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\DAL\bin\Debug\net6.0\DAL.pdb
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\DAL\obj\Debug\net6.0\DAL.dll
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\DAL\obj\Debug\net6.0\DAL.pdb
+C:\Users\SocialPath\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\22 - Lenguajes de última generación\00 - Trabajo práctico de la materia\TallerMecanico\DAL\obj\Debug\net6.0\ref\DAL.dll
