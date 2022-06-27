@@ -7,7 +7,7 @@ using Framework;
 
 namespace BEL
 {
-    public abstract class Vehiculo
+    public abstract class Vehiculo : IComparable<Vehiculo>
     {
         public int Id { get; set; }
         public string Marca { get; set; }
@@ -17,5 +17,9 @@ namespace BEL
 
         public static int UltimoId = 0;
 
+        public int CompareTo(Vehiculo? other)
+        {
+            return this.Id.CompareTo(other.Id);
+        }
     }
 }

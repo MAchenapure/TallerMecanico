@@ -9,6 +9,16 @@ namespace BEL
 {
     public class Moto : Vehiculo
     {
+        public Moto(int id, string pMarca, string pModelo, string pPatente, Constantes.TipoVehiculo pTipoV, int pCilindrada)
+        {
+            Id = id;
+            Marca = pMarca;
+            Modelo = pModelo;
+            Patente = pPatente;
+            TipoVehiculo = pTipoV;
+            Cilindrada = pCilindrada;
+        }
+
         public Moto(string pMarca, string pModelo, string pPatente, Constantes.TipoVehiculo pTipoV, int pCilindrada)
         {
             UltimoId++;
@@ -19,6 +29,7 @@ namespace BEL
             TipoVehiculo = pTipoV;
             Cilindrada = pCilindrada;
         }
+
         public int Cilindrada { get; set; }
 
     }

@@ -21,6 +21,17 @@ namespace BL
         {
             this.mLista.Add(pVehiculo);
         }
+
+        public void EliminarVehiculo(Vehiculo pVehiculo)
+        {
+            mLista.Remove(pVehiculo);
+        }
         
+        public void ModificarVehiculo(Vehiculo pVehiculoOriginal, Vehiculo pVehiculoNuevo)
+        {
+            mLista.Remove(pVehiculoOriginal);
+            mLista.Add(pVehiculoNuevo);
+            mLista.Sort();
+        }
     }
 }

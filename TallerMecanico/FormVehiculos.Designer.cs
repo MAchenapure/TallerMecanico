@@ -28,21 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnAlta = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
             this.cbVehiculos = new System.Windows.Forms.ComboBox();
             this.grdVehiculos = new System.Windows.Forms.DataGridView();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.grdVehiculos)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnAlta
+            // btnGuardar
             // 
-            this.btnAlta.Location = new System.Drawing.Point(437, 437);
-            this.btnAlta.Name = "btnAlta";
-            this.btnAlta.Size = new System.Drawing.Size(75, 23);
-            this.btnAlta.TabIndex = 1;
-            this.btnAlta.Text = "Guardar";
-            this.btnAlta.UseVisualStyleBackColor = true;
-            this.btnAlta.Click += new System.EventHandler(this.btnAlta_Click);
+            this.btnGuardar.Location = new System.Drawing.Point(437, 437);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(75, 23);
+            this.btnGuardar.TabIndex = 1;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnAlta_Click);
             // 
             // cbVehiculos
             // 
@@ -61,24 +63,49 @@
             this.grdVehiculos.Size = new System.Drawing.Size(567, 150);
             this.grdVehiculos.TabIndex = 3;
             // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(518, 437);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.TabIndex = 4;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.Location = new System.Drawing.Point(599, 437);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.TabIndex = 5;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
+            // 
             // FormVehiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(869, 493);
+            this.Controls.Add(this.btnModificar);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.grdVehiculos);
             this.Controls.Add(this.cbVehiculos);
-            this.Controls.Add(this.btnAlta);
+            this.Controls.Add(this.btnGuardar);
             this.Name = "FormVehiculos";
             this.Text = "Vehiculos";
+            this.Load += new System.EventHandler(this.FormVehiculos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grdVehiculos)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private Button btnAlta;
+        private Button btnGuardar;
         private ComboBox cbVehiculos;
         private DataGridView grdVehiculos;
+        private Button btnEliminar;
+        private Button btnModificar;
     }
 }

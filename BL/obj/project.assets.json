@@ -66,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\BL\\BL.csproj",
+      "projectUniqueName": "C:\\Users\\SocialPath\\Documents\\01 - Proyectos propios\\TallerMecanico\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\BL\\BL.csproj",
+      "projectPath": "C:\\Users\\SocialPath\\Documents\\01 - Proyectos propios\\TallerMecanico\\BL\\BL.csproj",
       "packagesPath": "C:\\Users\\SocialPath\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\BL\\obj\\",
+      "outputPath": "C:\\Users\\SocialPath\\Documents\\01 - Proyectos propios\\TallerMecanico\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SocialPath\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,11 +87,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\BEL\\BEL.csproj": {
-              "projectPath": "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\BEL\\BEL.csproj"
+            "C:\\Users\\SocialPath\\Documents\\01 - Proyectos propios\\TallerMecanico\\BEL\\BEL.csproj": {
+              "projectPath": "C:\\Users\\SocialPath\\Documents\\01 - Proyectos propios\\TallerMecanico\\BEL\\BEL.csproj"
             },
-            "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\SocialPath\\Desktop\\TallerMecanico\\DAL\\DAL.csproj"
+            "C:\\Users\\SocialPath\\Documents\\01 - Proyectos propios\\TallerMecanico\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\SocialPath\\Documents\\01 - Proyectos propios\\TallerMecanico\\DAL\\DAL.csproj"
             }
           }
         }

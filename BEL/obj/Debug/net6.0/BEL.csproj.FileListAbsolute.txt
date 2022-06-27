@@ -28,3 +28,18 @@ C:\Users\SocialPath\Desktop\TallerMecanico\BEL\obj\Debug\net6.0\BEL.dll
 C:\Users\SocialPath\Desktop\TallerMecanico\BEL\obj\Debug\net6.0\refint\BEL.dll
 C:\Users\SocialPath\Desktop\TallerMecanico\BEL\obj\Debug\net6.0\BEL.pdb
 C:\Users\SocialPath\Desktop\TallerMecanico\BEL\obj\Debug\net6.0\ref\BEL.dll
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\bin\Debug\net6.0\BEL.deps.json
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\bin\Debug\net6.0\BEL.dll
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\bin\Debug\net6.0\BEL.pdb
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\bin\Debug\net6.0\Framework.dll
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\bin\Debug\net6.0\Framework.pdb
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\obj\Debug\net6.0\BEL.csproj.AssemblyReference.cache
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\obj\Debug\net6.0\BEL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\obj\Debug\net6.0\BEL.AssemblyInfoInputs.cache
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\obj\Debug\net6.0\BEL.AssemblyInfo.cs
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\obj\Debug\net6.0\BEL.csproj.CoreCompileInputs.cache
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\obj\Debug\net6.0\BEL.csproj.CopyComplete
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\obj\Debug\net6.0\BEL.dll
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\obj\Debug\net6.0\refint\BEL.dll
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\obj\Debug\net6.0\BEL.pdb
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BEL\obj\Debug\net6.0\ref\BEL.dll
