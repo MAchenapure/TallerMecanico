@@ -1,6 +1,7 @@
 using BEL;
 using BL;
 using Framework;
+using UIL;
 
 namespace TallerMecanico
 {
@@ -13,7 +14,6 @@ namespace TallerMecanico
 
         VehiculoBL mVehiculoBL = new VehiculoBL();
 
-
         #region Manejo del Form y Controles de usuario
         private void FormVehiculos_Load(object sender, EventArgs e)
         {
@@ -23,6 +23,7 @@ namespace TallerMecanico
             grdVehiculos.EditMode = DataGridViewEditMode.EditProgrammatically;
             grdVehiculos.AllowUserToAddRows = false;
             grdVehiculos.AllowUserToDeleteRows = false;
+            grdVehiculos.AllowUserToResizeRows = false;
             grdVehiculos.AllowUserToResizeColumns = false;
             grdVehiculos.MultiSelect = false;
             grdVehiculos.AutoGenerateColumns = false;
@@ -38,17 +39,29 @@ namespace TallerMecanico
             grdVehiculos.Columns[3].DataPropertyName = "Marca";
             grdVehiculos.Columns.Add("Modelo", "Modelo");
             grdVehiculos.Columns[4].DataPropertyName = "Modelo";
-
             #endregion
 
             cbVehiculos.DataSource = Enum.GetValues(typeof(Constantes.TipoVehiculo));
             cbAutomovil.DataSource = Enum.GetValues(typeof(Constantes.TipoAutomovil));
+
+            ActualizarGrid();
         }
+
+        // Métodos del form
         private void ActualizarGrid()
         {
             grdVehiculos.DataSource = null;
             grdVehiculos.DataSource = mVehiculoBL.ListarVehiculos();
             grdVehiculos.ClearSelection();
+            LimpiarEntradasABM();
+        }
+        private void LimpiarEntradasABM() {
+            cbVehiculos.SelectedItem = null;
+            tbMarca.Text = "";
+            tbModelo.Text = "";
+            tbPatente.Text = "";
+            cbAutomovil.SelectedItem = null;
+            numCilindrada.Value = 0;
         }
         private void MostrarControlesVehiculo()
         {
@@ -66,9 +79,43 @@ namespace TallerMecanico
                 cbAutomovil.Visible = false;
             }
         }
+
+        // Eventos de controles
+        private void btnDesperfectos_Click(object sender, EventArgs e)
+        {
+            if (grdVehiculos.SelectedRows.Count > 0)
+            {
+                Vehiculo mVehiculoSeleccionado = grdVehiculos.SelectedRows[0].DataBoundItem as Vehiculo;
+
+                FormDesperfectos mFormDesperfecto = new FormDesperfectos(mVehiculoSeleccionado);
+                mFormDesperfecto.ShowDialog();
+            }
+            else MessageBox.Show("Para ver los desperfectos debe seleccionar un vehículo de la lista.");
+        }
         private void cbVehiculos_SelectedValueChanged(object sender, EventArgs e)
         {
             MostrarControlesVehiculo();
+        }
+        private void grdVehiculos_SelectionChanged(object sender, EventArgs e)
+        {
+            if (grdVehiculos.SelectedRows.Count > 0)
+            {
+                Vehiculo mVehiculoSeleccionado = grdVehiculos.SelectedRows[0].DataBoundItem as Vehiculo;
+
+                cbVehiculos.SelectedItem = mVehiculoSeleccionado.TipoVehiculo;
+                tbMarca.Text = mVehiculoSeleccionado.Marca;
+                tbModelo.Text = mVehiculoSeleccionado.Modelo;
+                tbPatente.Text = mVehiculoSeleccionado.Patente;
+
+                if (mVehiculoSeleccionado.TipoVehiculo == Constantes.TipoVehiculo.Automovil)
+                {
+                    cbAutomovil.SelectedItem = Constantes.TipoVehiculo.Automovil;
+                }
+                else if (mVehiculoSeleccionado.TipoVehiculo == Constantes.TipoVehiculo.Moto)
+                {
+                    cbAutomovil.SelectedItem = Constantes.TipoVehiculo.Moto;
+                }
+            }
         }
         #endregion
 
@@ -88,16 +135,14 @@ namespace TallerMecanico
                         {
                             Constantes.TipoAutomovil TipoAutomovil = (Constantes.TipoAutomovil)cbAutomovil.SelectedItem;
                             Automovil mAuto = new Automovil(mMarca, mModelo, mPatente, TipoVehiculo, TipoAutomovil);
-                            //Automovil mAuto = new Automovil("Volkswagen", "Gol Trend", "MXQ368", TipoVehiculo, Constantes.TipoAutomovil.Compacto);
-                            mVehiculoBL.AgregarVehiculo(mAuto);
+                            mVehiculoBL.AgregarAutomovil(mAuto);
                             break;
                         }
                     case Constantes.TipoVehiculo.Moto:
                         {
                             int mCilindrada = (int)numCilindrada.Value;
                             Moto mMoto = new Moto(mMarca, mModelo, mPatente, TipoVehiculo, mCilindrada);
-                            //Moto mMoto = new Moto("Bajaj", "Rouser 200", "AAA243", TipoVehiculo, 200);
-                            mVehiculoBL.AgregarVehiculo(mMoto);
+                            mVehiculoBL.AgregarMoto(mMoto);
                             break;
                         }
                 }
@@ -131,14 +176,14 @@ namespace TallerMecanico
                 if(mVehiculoSeleccionado.TipoVehiculo == Constantes.TipoVehiculo.Automovil)
                 {
                     Constantes.TipoAutomovil TipoAutomovil = (Constantes.TipoAutomovil)cbAutomovil.SelectedItem;
-                    Vehiculo mVehiculoModificado = new Automovil(mVehiculoSeleccionado.Id, mMarca, mModelo, mPatente, mVehiculoSeleccionado.TipoVehiculo, TipoAutomovil);
-                    mVehiculoBL.ModificarVehiculo(mVehiculoSeleccionado, mVehiculoModificado);
+                    Automovil mAuto = new Automovil(mVehiculoSeleccionado.Id, mMarca, mModelo, mPatente, TipoVehiculo, TipoAutomovil, mVehiculoSeleccionado.ListaDesperfectos);
+                    mVehiculoBL.ModificarAutomovil(mAuto);
 
                 } else if(mVehiculoSeleccionado.TipoVehiculo == Constantes.TipoVehiculo.Moto)
                 {
                     int mCilindrada = (int)numCilindrada.Value;
-                    Vehiculo mVehiculoModificado = new Moto(mVehiculoSeleccionado.Id, mMarca, mModelo, mPatente, mVehiculoSeleccionado.TipoVehiculo, mCilindrada);
-                    mVehiculoBL.ModificarVehiculo(mVehiculoSeleccionado, mVehiculoModificado);
+                    Moto mMoto = new Moto(mVehiculoSeleccionado.Id, mMarca, mModelo, mPatente, TipoVehiculo, mCilindrada, mVehiculoSeleccionado.ListaDesperfectos);
+                    mVehiculoBL.ModificarMoto(mMoto);
                 }
 
                 ActualizarGrid();
@@ -146,25 +191,9 @@ namespace TallerMecanico
         }
         #endregion
 
-        private void grdVehiculos_SelectionChanged(object sender, EventArgs e)
+        private void repuestosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if(grdVehiculos.SelectedRows.Count > 0)
-            {
-                Vehiculo mVehiculoSeleccionado = grdVehiculos.SelectedRows[0].DataBoundItem as Vehiculo;
 
-                cbVehiculos.SelectedItem = mVehiculoSeleccionado.TipoVehiculo;
-                tbMarca.Text = mVehiculoSeleccionado.Marca;
-                tbModelo.Text = mVehiculoSeleccionado.Modelo;
-                tbPatente.Text = mVehiculoSeleccionado.Patente;
-
-                if (mVehiculoSeleccionado.TipoVehiculo == Constantes.TipoVehiculo.Automovil)
-                {
-                    cbAutomovil.SelectedItem = Constantes.TipoVehiculo.Automovil;
-                } else if(mVehiculoSeleccionado.TipoVehiculo == Constantes.TipoVehiculo.Moto)
-                {
-                    cbAutomovil.SelectedItem = Constantes.TipoVehiculo.Moto;
-                }
-            }
         }
     }
 }

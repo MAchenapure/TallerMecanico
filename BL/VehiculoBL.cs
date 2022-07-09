@@ -4,34 +4,51 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BEL;
+using DAL;
 using Framework;
 
 namespace BL
 {
     public class VehiculoBL
     {
-        private List<Vehiculo> mLista = new List<Vehiculo>();
-        
-        public List<Vehiculo> ListarVehiculos()
+        public VehiculoBL()
         {
-            return this.mLista;
+            Vehiculo.UltimoId = mVehiculoDAL.ObtenerUltimoId("Vehiculo");
         }
 
-        public void AgregarVehiculo(Vehiculo pVehiculo)
-        {
-            this.mLista.Add(pVehiculo);
-        }
+        VehiculoDAL mVehiculoDAL = new VehiculoDAL();
 
+        public void AgregarAutomovil(Automovil pAutomovil)
+        {
+            mVehiculoDAL.GuardarAutomovil(pAutomovil);
+        }
+        public void AgregarMoto(Moto pMoto)
+        {
+            mVehiculoDAL.GuardarMoto(pMoto);
+        }
         public void EliminarVehiculo(Vehiculo pVehiculo)
         {
-            mLista.Remove(pVehiculo);
+            mVehiculoDAL.EliminarVehiculo(pVehiculo);
         }
-        
-        public void ModificarVehiculo(Vehiculo pVehiculoOriginal, Vehiculo pVehiculoNuevo)
+        public void ModificarAutomovil(Automovil pAuto)
         {
-            mLista.Remove(pVehiculoOriginal);
-            mLista.Add(pVehiculoNuevo);
-            mLista.Sort();
+            mVehiculoDAL.ModificarVehiculo(pAuto);
+            mVehiculoDAL.ModificarAutomovil(pAuto);
+        }
+        public void ModificarMoto(Moto pMoto)
+        {
+            mVehiculoDAL.ModificarVehiculo(pMoto);
+            mVehiculoDAL.ModificarMoto(pMoto);
+        }
+        public List<Desperfecto> ListarDesperfectos(Vehiculo pVehiculo)
+        {
+            // BORRAR ESTA LISTA, TIENE QUE VENIR DESDE DAL.
+            List<Desperfecto> mLista = new List<Desperfecto>();
+            return mLista;
+        }
+        public List<Vehiculo> ListarVehiculos()
+        {
+            return mVehiculoDAL.ListarVehiculos();
         }
     }
 }

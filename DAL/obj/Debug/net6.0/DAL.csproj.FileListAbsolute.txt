@@ -22,3 +22,9 @@ C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\DAL\obj\Debu
 C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\DAL\obj\Debug\net6.0\refint\DAL.dll
 C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\DAL\obj\Debug\net6.0\DAL.pdb
 C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\DAL\obj\Debug\net6.0\ref\DAL.dll
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\DAL\bin\Debug\net6.0\DAL.dll.config
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\DAL\bin\Debug\net6.0\BEL.dll
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\DAL\bin\Debug\net6.0\Framework.dll
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\DAL\bin\Debug\net6.0\BEL.pdb
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\DAL\bin\Debug\net6.0\Framework.pdb
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete

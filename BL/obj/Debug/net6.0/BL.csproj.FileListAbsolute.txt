@@ -55,3 +55,4 @@ C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BL\obj\Debug
 C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BL\obj\Debug\net6.0\refint\BL.dll
 C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BL\obj\Debug\net6.0\BL.pdb
 C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BL\obj\Debug\net6.0\ref\BL.dll
+C:\Users\SocialPath\Documents\01 - Proyectos propios\TallerMecanico\BL\bin\Debug\net6.0\DAL.dll.config

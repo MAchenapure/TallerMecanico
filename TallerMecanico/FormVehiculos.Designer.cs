@@ -45,9 +45,13 @@
             this.lblTipoAuto = new System.Windows.Forms.Label();
             this.cbAutomovil = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnDesperfectos = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.repuestosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.grdVehiculos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCilindrada)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnGuardar
@@ -211,20 +215,49 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.cbVehiculos);
-            this.groupBox1.Location = new System.Drawing.Point(75, 216);
+            this.groupBox1.Location = new System.Drawing.Point(80, 242);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(466, 202);
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ABM Vehiculos";
             // 
+            // btnDesperfectos
+            // 
+            this.btnDesperfectos.Location = new System.Drawing.Point(60, 201);
+            this.btnDesperfectos.Name = "btnDesperfectos";
+            this.btnDesperfectos.Size = new System.Drawing.Size(108, 23);
+            this.btnDesperfectos.TabIndex = 18;
+            this.btnDesperfectos.Text = "Ver desperfectos";
+            this.btnDesperfectos.UseVisualStyleBackColor = true;
+            this.btnDesperfectos.Click += new System.EventHandler(this.btnDesperfectos_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.repuestosToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(644, 24);
+            this.menuStrip1.TabIndex = 19;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // repuestosToolStripMenuItem
+            // 
+            this.repuestosToolStripMenuItem.Name = "repuestosToolStripMenuItem";
+            this.repuestosToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
+            this.repuestosToolStripMenuItem.Text = "Repuestos";
+            this.repuestosToolStripMenuItem.Click += new System.EventHandler(this.repuestosToolStripMenuItem_Click);
+            // 
             // FormVehiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 493);
+            this.ClientSize = new System.Drawing.Size(644, 456);
+            this.Controls.Add(this.btnDesperfectos);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.grdVehiculos);
+            this.Controls.Add(this.menuStrip1);
             this.Name = "FormVehiculos";
             this.Text = "Vehiculos";
             this.Load += new System.EventHandler(this.FormVehiculos_Load);
@@ -232,7 +265,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.numCilindrada)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -254,5 +290,8 @@
         private Label lblTipoAuto;
         private ComboBox cbAutomovil;
         private GroupBox groupBox1;
+        private Button btnDesperfectos;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem repuestosToolStripMenuItem;
     }
 }

@@ -1,0 +1,36 @@
+Connection string: Data Source=.\SQLEXPRESS;Initial Catalog=TallerMecanico;Integrated Security=True
+
+CREATE TABLE Vehiculo (
+	Id_Vehiculo int NOT NULL PRIMARY KEY,
+	Marca_Vehiculo varchar(50) NOT NULL,
+	Modelo_Vehiculo varchar(255) NOT NULL,
+	Patente_Vehiculo varchar(50) NOT NULL,
+	Tipo_Vehiculo int NOT NULL
+)
+
+CREATE TABLE Automovil(
+	Id_Automovil int IDENTITY(1,1) PRIMARY KEY,
+	Tipo_Automovil int NOT NULL,
+	Id_Vehiculo int FOREIGN KEY REFERENCES Vehiculo(Id_Vehiculo)
+)
+
+CREATE TABLE Moto(
+	Id_Moto int IDENTITY(1,1) PRIMARY KEY,
+	Cilindrada_Moto int NOT NULL,
+	Id_Vehiculo int FOREIGN KEY REFERENCES Vehiculo(Id_Vehiculo)
+)
+
+CREATE TABLE Desperfecto (
+	Id_Desperfecto int NOT NULL PRIMARY KEY,
+	Id_Vehiculo int NOT NULL FOREIGN KEY REFERENCES Vehiculo(Id_Vehiculo),
+	Descripcion_Desperfecto varchar(max) NOT NULL,
+	Tiempo_Desperfecto int NOT NULL
+)
+
+CREATE TABLE Repuesto (
+	Id_Repuesto int PRIMARY KEY NOT NULL, 
+	Descripcion_Repuesto varchar(255) NOT NULL,
+	Precio_Repuesto int NOT NULL, 
+	Id_Repuesto_Compuesto int
+)
+
