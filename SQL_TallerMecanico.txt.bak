@@ -34,3 +34,9 @@ CREATE TABLE Repuesto (
 	Id_Repuesto_Compuesto int
 )
 
+CREATE TABLE Desperfecto_Repuesto (
+	Id_Desperfecto int FOREIGN KEY REFERENCES Desperfecto(Id_Desperfecto),
+	Id_Repuesto int FOREIGN KEY REFERENCES Repuesto(Id_Repuesto),
+	PRIMARY KEY(Id_Desperfecto, Id_Repuesto)
+)
+

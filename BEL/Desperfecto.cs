@@ -10,13 +10,14 @@ namespace BEL
     {
         public static int UltimoId = 0;
 
-        public Desperfecto(int pId, int pIdVehiculo, string pDescripcion, int pManoDeObra, int pTiempo)
+        public Desperfecto(int pId, int pIdVehiculo, string pDescripcion, int pManoDeObra, int pTiempo, List<Repuesto> pListaRepuestos)
         {
             Id = pId;
             IdVehiculo = pIdVehiculo;
             Descripcion = pDescripcion;
             ManoDeObra = pManoDeObra;
             Tiempo = pTiempo;
+            ListaRepuestos = pListaRepuestos;
         }
 
         public Desperfecto(int pIdVehiculo, string pDescripcion, int pManoDeObra, int pTiempo)
@@ -27,6 +28,7 @@ namespace BEL
             Descripcion = pDescripcion;
             ManoDeObra = pManoDeObra;
             Tiempo = pTiempo;
+           // ListaRepuestos = pListaRepuestos;
         }
 
         public int Id { get; set; }
@@ -35,6 +37,6 @@ namespace BEL
         public int Tiempo { get; set; }
         public int IdVehiculo { get; set; }
 
-        public List<IRepuesto> ListaRepuestos = new List<IRepuesto>();
+        public List<Repuesto> ListaRepuestos = new List<Repuesto>();
     }
 }

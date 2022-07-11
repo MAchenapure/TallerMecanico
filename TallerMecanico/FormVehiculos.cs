@@ -109,11 +109,17 @@ namespace TallerMecanico
 
                 if (mVehiculoSeleccionado.TipoVehiculo == Constantes.TipoVehiculo.Automovil)
                 {
-                    cbAutomovil.SelectedItem = Constantes.TipoVehiculo.Automovil;
+                    cbVehiculos.SelectedItem = Constantes.TipoVehiculo.Automovil;
+
+                    Automovil mAuto = (Automovil)mVehiculoSeleccionado;
+                    cbAutomovil.SelectedItem = mAuto.TipoAutomovil;
+
                 }
                 else if (mVehiculoSeleccionado.TipoVehiculo == Constantes.TipoVehiculo.Moto)
                 {
-                    cbAutomovil.SelectedItem = Constantes.TipoVehiculo.Moto;
+                    cbVehiculos.SelectedItem = Constantes.TipoVehiculo.Moto;
+                    Moto mMoto = (Moto)mVehiculoSeleccionado;
+                    numCilindrada.Value = mMoto.Cilindrada;
                 }
             }
         }
@@ -193,7 +199,9 @@ namespace TallerMecanico
 
         private void repuestosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            bool modoABM = true;
+            FormRepuestos mFormRepuestos = new FormRepuestos(modoABM);
+            mFormRepuestos.ShowDialog();
         }
     }
 }

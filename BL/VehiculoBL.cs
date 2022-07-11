@@ -40,12 +40,6 @@ namespace BL
             mVehiculoDAL.ModificarVehiculo(pMoto);
             mVehiculoDAL.ModificarMoto(pMoto);
         }
-        public List<Desperfecto> ListarDesperfectos(Vehiculo pVehiculo)
-        {
-            // BORRAR ESTA LISTA, TIENE QUE VENIR DESDE DAL.
-            List<Desperfecto> mLista = new List<Desperfecto>();
-            return mLista;
-        }
         public List<Vehiculo> ListarVehiculos()
         {
             return mVehiculoDAL.ListarVehiculos();

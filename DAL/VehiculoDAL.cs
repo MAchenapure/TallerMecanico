@@ -32,6 +32,8 @@ namespace DAL
                 mDAO.ExecuteNonQuery(commandString, paramArray);
             }
 
+            mDesperfectoDAL.EliminarDesperfecto(pVehiculo.Id);
+
             commandString = "DELETE FROM Vehiculo WHERE Id_Vehiculo = @p1";
             SqlParameter[] paramArray2 = { new SqlParameter("@p1", pVehiculo.Id) };
             mDAO.ExecuteNonQuery(commandString, paramArray2);
@@ -97,7 +99,6 @@ namespace DAL
                 }
 
             }
-
             return mLista;
         }
 

@@ -17,16 +17,9 @@ namespace BL
             mDesperfectoDAL.GuardarDesperfecto(pDesperfecto);
         }
 
-        // Agregar repuesto debería estar en RepuestoBL
-        public void AgregarRepuesto(Desperfecto pDesperfecto, RepuestoCompuesto pRepuesto)
+        public void AgregarRepuesto(Repuesto pRepuesto, Desperfecto pDesperfecto)
         {
-            pDesperfecto.ListaRepuestos.Add(pRepuesto);
-        }
-        
-        // Crear Presupuesto debería estar en PresupuestoBL
-        public void CrearPresupuesto(Desperfecto pDesperfecto)
-        {
-            Presupuesto mPresupuesto = new Presupuesto();
+            mDesperfectoDAL.AgregarRepuesto(pDesperfecto.Id, pRepuesto.Id);
         }
 
         public void EliminarDesperfecto(Desperfecto pDesperfecto)
